@@ -1,3 +1,3 @@
 import requests
 
-print(requests.post("http://127.0.0.1:8000/").text)
+post_request = requests.post("http://127.0.0.1:8000/").text
